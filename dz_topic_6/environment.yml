@@ -16,12 +16,13 @@ dependencies:
   - seaborn
   - opencv
   - ipykernel
-  - pytorch
-  - torchvision
-  - torchaudio
-  - cpuonly
   - jupyter
   - ipywidgets
   - pip
   - pip:
       - kagglehub
+      - tensorflow
+      - tensorflow-metal
+      - torch --pre --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+      - torchvision --pre --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+      - torchaudio --pre --extra-index-url https://download.pytorch.org/whl/nightly/cpu
