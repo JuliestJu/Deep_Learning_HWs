@@ -1,0 +1,27 @@
+name: dz6
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - beautifulsoup4
+  - docutils
+  - jinja2=3.1.4
+  - wheel
+  - fastai
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - opencv
+  - ipykernel
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - jupyter
+  - ipywidgets
+  - pip
+  - pip:
+      - kagglehub
