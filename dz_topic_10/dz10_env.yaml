@@ -11,6 +11,8 @@ dependencies:
   - nltk
   - scikit-learn
   - tqdm
+  - xgboost
+  - imbalanced-learn  # Added imbalanced-learn library
   - pip
   - pip:
     - wordcloud
