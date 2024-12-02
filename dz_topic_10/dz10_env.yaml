@@ -1,0 +1,17 @@
+name: dz10
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - spacy
+  - gensim
+  - nltk
+  - scikit-learn
+  - tqdm
+  - pip
+  - pip:
+    - wordcloud
+    - en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
