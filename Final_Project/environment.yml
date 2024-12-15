@@ -1,0 +1,35 @@
+name: petfinder-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # General Libraries
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # Image Processing
+  - pillow
+  - opencv
+  - tensorflow
+  - keras
+
+  # Text Processing
+  - nltk
+  - transformers
+
+  # Machine Learning and Evaluation
+  - scikit-learn
+
+  # Data Augmentation
+  - albumentations
+
+  # Miscellaneous
+  - tqdm
+  - pip
+
+  # Additional pip packages
+  - pip:
+      - optuna
+      - imbalanced-learn

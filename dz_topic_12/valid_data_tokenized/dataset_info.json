@@ -1,0 +1,41 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "en-sk",
+  "dataset_name": "europarl",
+  "dataset_size": 194300822,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Helsinki-NLP/europarl@ab45e286aef3fb5780067100cb5a1132b52b7949/en-sk/train-00000-of-00001.parquet": {
+      "num_bytes": 113080628,
+      "checksum": null
+    }
+  },
+  "download_size": 113080628,
+  "features": {
+    "translation": {
+      "languages": [
+        "en",
+        "sk"
+      ],
+      "_type": "Translation"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 307381450,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 194300822,
+      "num_examples": 639958,
+      "dataset_name": "europarl"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,17 @@
+name: dz_12
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - numpy
+  - pandas
+  - tqdm
+  - matplotlib
+  - datasets
+  - pip:
+      - transformers
+      - torch==2.3.0
+      - sentencepiece
